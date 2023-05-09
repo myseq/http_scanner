@@ -21,4 +21,6 @@ options:
 ```
 
 ## Samples
+Below is the sample output, showing the scan of 5 default sites.
 
+![httphdr_scan.py](output.png)
