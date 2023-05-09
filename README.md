@@ -1,10 +1,12 @@
 # Tool: httphdr_scan
 This is a tool (written in Python) to perform quick scan on HTTP version and headers.
 
-It's features include:
+Main features include:
  - show HTTP version
  - show HTTP server and version
  - show security HTTP header (verbose)
+
+Other capabilities:
  - show the elapsed time for individual site
  - show the total and real time taken 
  - can scan spcific URL
