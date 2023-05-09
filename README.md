@@ -2,12 +2,27 @@
 This is a tool (written in Python) to perform quick scan on HTTP version and headers.
 
 It's features include:
- - showing HTTP version and server headers
- - showing the security HTTP header with different color (verbose)
+ - show HTTP version
+ - show HTTP server and version
+ - show security HTTP header (verbose)
+ - show the elapsed time for individual site
+ - show the total and real time taken 
  - can scan spcific URL
  - can scan a list of sites from an input file
  - allow to follow [301] redirection
  - always make async connections
+
+# Security HTTP Headers
+Got the same idea from https://securityheaders.com/
+
+## Headers
+ - Strict-Transport-Security
+ - Content-Security-Policy
+ - X-Frame-Options
+ - X-Content-Type-Options
+ - Referrer-Policy
+ - Permissions-Policy
+ - X-XSS
 
 # Usage
 ```bash
